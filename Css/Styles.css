@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+:root {
+  /* primary colors */
+  --Grayish-blue: hsl(237, 18%, 59%);
+  --Soft-red: hsl(345, 95%, 68%);
+
+  /* neutral color */
+  --White: hsl(0, 0%, 100%);
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-dark-blue: hsl(235, 16%, 14%);
+  --Very-dark-mostly-black-blue: hsl(234, 17%, 12%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: var(--Very-dark-blue);
+  font-size: 0.875rem;
+}
+.container {
+  width: 100%;
+  /* height: 100vh; */
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+.cards-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5em;
+  margin-left: 1.5em;
+}
+.card {
+  margin-right: 1em;
+  text-align: center;
+}
+.card span {
+  color: var(--Grayish-blue);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h1 {
+  color: var(--White);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.time {
+  background-color: var(--Dark-desaturated-blue);
+  color: var(--Soft-red);
+  margin-bottom: 0.5em;
+  padding: 0.8em 0.2em;
+}
+.stars {
+  position: absolute;
+}
+.hills {
+  position: absolute;
+  bottom: 0;
+}
+.hills img {
+  height: 20vh;
+}
+.socials {
+  position: absolute;
+  bottom: 1.2em;
+  left: 5.8em;
+  padding: 0 0.5em;
+  display: flex;
+  align-items: center;
+}
+.socials img {
+  margin: 0 1em;
+}
+@media (min-width: 1024px) {
+  .hills img {
+    width: 1500px;
+    height: 30vh;
+  }
+  .socials {
+    left: 35em;
+  }
+}
