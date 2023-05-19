@@ -13,8 +13,8 @@ const CardContainer = document.querySelector('.cards-content');
 //setting my coundown time
 // const countdownDate = Date.parse('2024-01-01T00:00:00');
 // let countdownDate = new Date().setSeconds(new Date().getSeconds() + 10);
-let countdownDate = new Date().setMinutes(new Date().getMinutes() + 2);
-// let countdownDate = new Date().setHours(new Date().getHours() + 1);
+// let countdownDate = new Date().setMinutes(new Date().getMinutes() + 2);
+let countdownDate = new Date().setHours(new Date().getHours() + 336);
 
 let timeInterVal = null;
 //setting the countdown function
