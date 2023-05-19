@@ -12,15 +12,12 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/chidinma1234/launch-countdown-timer-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Live Site URL: [Add live site URL here](https://chidinma1234.github.io/launch-countdown-timer-main/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - Vanilla javascript
